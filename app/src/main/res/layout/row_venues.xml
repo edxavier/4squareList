@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="4dp"
+    app:contentPadding="8dp"
+    app:cardElevation="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="75"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Brooklyn Bridge Park"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:id="@+id/name" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Parques"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:id="@+id/category" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Probablemente abierto"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:id="@+id/status" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Furman St (Brooklyn Bridge Park Greenway)"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Caption"
+                android:id="@+id/address" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:gravity="end"
+            android:layout_weight="25"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@android:drawable/star_on"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/rating" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:id="@+id/price" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="1 km"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Caption"
+                android:id="@+id/distance" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

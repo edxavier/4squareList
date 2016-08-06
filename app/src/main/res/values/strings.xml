@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">4squareList</string>
+    <string name="progress_dialog">Espere porfavor</string>
+    <string name="please_wait">Estamos obteniendo los datos</string>
+    <string name="title">Error</string>
+    <string name="agree">Aceptar</string>
+    <string name="content">Ha ocurrido un error al descargar los datos:</string>
+    <string name="info_title">Informacion</string>
+    <string name="filter">Filtar Resultados</string>
+    <string name="filter_btn">Filtrar</string>
+    <string name="filter_type">Filtrat por tipo de musica</string>
+</resources>
